@@ -17,7 +17,7 @@ export default function LoginPage() {
     const result = await savePokemonData(username);
 
     if (result.success) {
-      setIsLoading(true);
+      setIsLoading(false);
       router.push("/home");
     } else {
       setMessage(result.message);
