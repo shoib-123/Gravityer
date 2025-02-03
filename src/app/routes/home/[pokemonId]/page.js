@@ -1,8 +1,11 @@
 import Card from "@/app/components/Card";
 import Link from "next/link";
 import { getPokemonDetails } from "@/app/utils/fetchCalls.js";
+import Loader from "@/app/components/Loader";
 
 export default async function PokemonDetails({ params }) {
+  if (!params) return <Loader />;
+
   const { pokemonId } = params;
 
   const pokemonDetails = await getPokemonDetails(pokemonId);
