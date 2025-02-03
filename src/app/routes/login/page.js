@@ -24,43 +24,42 @@ export default function LoginPage() {
     }
   };
 
-  return (
-    <>
-      {isLoading && <Loader />}
-      <div className="flex items-center justify-center min-h-screen px-4">
-        <div className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-md">
-          <div className="relative w-full max-w-[150px] h-auto mx-auto">
-            <Image
-              src="/images/logo.png"
-              alt="Logo"
-              layout="responsive"
-              width={348}
-              height={140}
+  return isLoading ? (
+    <Loader />
+  ) : (
+    <div className="flex items-center justify-center min-h-screen px-4">
+      <div className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-md">
+        <div className="relative w-full max-w-[150px] h-auto mx-auto">
+          <Image
+            src="/images/logo.png"
+            alt="Logo"
+            layout="responsive"
+            width={348}
+            height={140}
+          />
+        </div>
+        <form onSubmit={handleSubmit} className="mt-6">
+          <div className="mb-4">
+            <input
+              type="text"
+              placeholder="Enter your name"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
           </div>
-          <form onSubmit={handleSubmit} className="mt-6">
-            <div className="mb-4">
-              <input
-                type="text"
-                placeholder="Enter your name"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-                className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
-              />
-            </div>
-            <div className="mb-6">
-              {message && <p className="text-center text-red-600">{message}</p>}
-            </div>
+          <div className="mb-6">
+            {message && <p className="text-center text-red-600">{message}</p>}
+          </div>
 
-            <button
-              type="submit"
-              className="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition shadow-md font-extraBold"
-            >
-              Submit
-            </button>
-          </form>
-        </div>
+          <button
+            type="submit"
+            className="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition shadow-md font-extraBold"
+          >
+            Submit
+          </button>
+        </form>
       </div>
-    </>
+    </div>
   );
 }
