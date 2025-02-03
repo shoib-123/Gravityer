@@ -1,0 +1,152 @@
+[
+  {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon/1/",
+    "image": "https://img.pokemondb.net/artwork/bulbasaur.jpg"
+  },
+  {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon/2/",
+    "image": "https://img.pokemondb.net/artwork/ivysaur.jpg"
+  },
+  {
+    "name": "venusaur",
+    "url": "https://pokeapi.co/api/v2/pokemon/3/",
+    "image": "https://img.pokemondb.net/artwork/venusaur.jpg"
+  },
+  {
+    "name": "charmander",
+    "url": "https://pokeapi.co/api/v2/pokemon/4/",
+    "image": "https://img.pokemondb.net/artwork/charmander.jpg"
+  },
+  {
+    "name": "charmeleon",
+    "url": "https://pokeapi.co/api/v2/pokemon/5/",
+    "image": "https://img.pokemondb.net/artwork/charmeleon.jpg"
+  },
+  {
+    "name": "charizard",
+    "url": "https://pokeapi.co/api/v2/pokemon/6/",
+    "image": "https://img.pokemondb.net/artwork/charizard.jpg"
+  },
+  {
+    "name": "squirtle",
+    "url": "https://pokeapi.co/api/v2/pokemon/7/",
+    "image": "https://img.pokemondb.net/artwork/squirtle.jpg"
+  },
+  {
+    "name": "wartortle",
+    "url": "https://pokeapi.co/api/v2/pokemon/8/",
+    "image": "https://img.pokemondb.net/artwork/wartortle.jpg"
+  },
+  {
+    "name": "blastoise",
+    "url": "https://pokeapi.co/api/v2/pokemon/9/",
+    "image": "https://img.pokemondb.net/artwork/blastoise.jpg"
+  },
+  {
+    "name": "caterpie",
+    "url": "https://pokeapi.co/api/v2/pokemon/10/",
+    "image": "https://img.pokemondb.net/artwork/caterpie.jpg"
+  },
+  {
+    "name": "metapod",
+    "url": "https://pokeapi.co/api/v2/pokemon/11/",
+    "image": "https://img.pokemondb.net/artwork/metapod.jpg"
+  },
+  {
+    "name": "butterfree",
+    "url": "https://pokeapi.co/api/v2/pokemon/12/",
+    "image": "https://img.pokemondb.net/artwork/butterfree.jpg"
+  },
+  {
+    "name": "weedle",
+    "url": "https://pokeapi.co/api/v2/pokemon/13/",
+    "image": "https://img.pokemondb.net/artwork/weedle.jpg"
+  },
+  {
+    "name": "kakuna",
+    "url": "https://pokeapi.co/api/v2/pokemon/14/",
+    "image": "https://img.pokemondb.net/artwork/kakuna.jpg"
+  },
+  {
+    "name": "beedrill",
+    "url": "https://pokeapi.co/api/v2/pokemon/15/",
+    "image": "https://img.pokemondb.net/artwork/beedrill.jpg"
+  },
+  {
+    "name": "pidgey",
+    "url": "https://pokeapi.co/api/v2/pokemon/16/",
+    "image": "https://img.pokemondb.net/artwork/pidgey.jpg"
+  },
+  {
+    "name": "pidgeotto",
+    "url": "https://pokeapi.co/api/v2/pokemon/17/",
+    "image": "https://img.pokemondb.net/artwork/pidgeotto.jpg"
+  },
+  {
+    "name": "pidgeot",
+    "url": "https://pokeapi.co/api/v2/pokemon/18/",
+    "image": "https://img.pokemondb.net/artwork/pidgeot.jpg"
+  },
+  {
+    "name": "rattata",
+    "url": "https://pokeapi.co/api/v2/pokemon/19/",
+    "image": "https://img.pokemondb.net/artwork/rattata.jpg"
+  },
+  {
+    "name": "raticate",
+    "url": "https://pokeapi.co/api/v2/pokemon/20/",
+    "image": "https://img.pokemondb.net/artwork/raticate.jpg"
+  },
+  {
+    "name": "spearow",
+    "url": "https://pokeapi.co/api/v2/pokemon/21/",
+    "image": "https://img.pokemondb.net/artwork/spearow.jpg"
+  },
+  {
+    "name": "fearow",
+    "url": "https://pokeapi.co/api/v2/pokemon/22/",
+    "image": "https://img.pokemondb.net/artwork/fearow.jpg"
+  },
+  {
+    "name": "ekans",
+    "url": "https://pokeapi.co/api/v2/pokemon/23/",
+    "image": "https://img.pokemondb.net/artwork/ekans.jpg"
+  },
+  {
+    "name": "arbok",
+    "url": "https://pokeapi.co/api/v2/pokemon/24/",
+    "image": "https://img.pokemondb.net/artwork/arbok.jpg"
+  },
+  {
+    "name": "pikachu",
+    "url": "https://pokeapi.co/api/v2/pokemon/25/",
+    "image": "https://img.pokemondb.net/artwork/pikachu.jpg"
+  },
+  {
+    "name": "raichu",
+    "url": "https://pokeapi.co/api/v2/pokemon/26/",
+    "image": "https://img.pokemondb.net/artwork/raichu.jpg"
+  },
+  {
+    "name": "sandshrew",
+    "url": "https://pokeapi.co/api/v2/pokemon/27/",
+    "image": "https://img.pokemondb.net/artwork/sandshrew.jpg"
+  },
+  {
+    "name": "sandslash",
+    "url": "https://pokeapi.co/api/v2/pokemon/28/",
+    "image": "https://img.pokemondb.net/artwork/sandslash.jpg"
+  },
+  {
+    "name": "nidoran-f",
+    "url": "https://pokeapi.co/api/v2/pokemon/29/",
+    "image": "https://img.pokemondb.net/artwork/nidoran-f.jpg"
+  },
+  {
+    "name": "nidorina",
+    "url": "https://pokeapi.co/api/v2/pokemon/30/",
+    "image": "https://img.pokemondb.net/artwork/nidorina.jpg"
+  }
+]
