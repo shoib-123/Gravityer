@@ -27,7 +27,7 @@ export default function LoginPage() {
   return (
     <>
       {isLoading && <Loader />}
-      <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-100 to-indigo-200 px-4">
+      <div className="flex items-center justify-center min-h-screen px-4">
         <div className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-md">
           <div className="relative w-full max-w-[150px] h-auto mx-auto">
             <Image

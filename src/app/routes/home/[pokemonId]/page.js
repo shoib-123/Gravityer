@@ -4,9 +4,7 @@ import { getPokemonDetails } from "@/app/utils/fetchCalls.js";
 import Loader from "@/app/components/Loader";
 
 export default async function PokemonDetails({ params }) {
-  if (!params) return <Loader />;
-
-  const { pokemonId } = params;
+  const { pokemonId } = await params;
 
   const pokemonDetails = await getPokemonDetails(pokemonId);
 
@@ -20,7 +18,9 @@ export default async function PokemonDetails({ params }) {
 
   const { name, image, type, stat, abilities, moves } = pokemonDetails.data;
 
-  return (
+  return !pokemonDetails ? (
+    <Loader />
+  ) : (
     <div className="p-5">
       <nav className="mb-4 text-gray-600">
         <Link
