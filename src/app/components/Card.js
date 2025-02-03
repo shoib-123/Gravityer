@@ -49,7 +49,7 @@ function Card({
             {name}
           </h5>
           <div className="flex gap-2 items-center mt-2">
-            <Link href={`home/${id + 1}`} className="flex items-center">
+            <Link href={`home/${id}`} className="flex items-center">
               <h5 className="text-cyan-500 font-regular">Details</h5>
               <FaArrowRightLong size={15} className="text-cyan-500 ml-1" />
             </Link>

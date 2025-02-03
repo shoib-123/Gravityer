@@ -34,7 +34,7 @@ export default function PokemonPage({ pokemons }) {
               key={`${index}_${card.name}`}
               name={card.name}
               image={card.image}
-              id={index}
+              id={card.id}
             />
           ))
         ) : (

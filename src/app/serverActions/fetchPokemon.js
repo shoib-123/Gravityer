@@ -18,7 +18,10 @@ export async function savePokemonData(username) {
     const response = await getPokemonList();
 
     if (response.status === API_CALLS.SUCCESS) {
-      const pokemon = response.data;
+      const pokemon = response.data.map((item, index) => ({
+        ...item,
+        id: index + 1,
+      }));
 
       try {
         await fs.promises.writeFile(filePath, JSON.stringify(pokemon, null, 2));
